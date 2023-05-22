@@ -1,0 +1,172 @@
+/* INDEX.HTML */
+.main-index {
+    background-color: none;
+    width: 70%;
+    margin: 50px auto 0 auto;
+}
+
+.body-index{
+    background-color: none;
+}
+
+.h1-index {
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    margin: 0 auto 30px 15%;
+}
+
+.p-index {
+    display: none;
+}
+
+.img-index {
+    display: none;
+}
+
+video {
+    width: 80%;
+    margin-left: 10%;
+}
+
+@media (max-width:600px) {
+
+    .main-index {
+        width: 90%;
+        margin: 50px auto 50px auto;
+        position: relative;
+        z-index: -1;
+    }
+    
+    .p-index {
+        display: inline-block;
+        width: 50%;
+        text-align: center;
+        padding-left: 25%;
+        font-family: 'Roboto Mono', monospace;
+        color: #83764F;
+        font-weight: 900;
+    }
+
+    .img-index {
+        display:flex;
+        position: absolute;
+        width: 100px;
+        margin-top: 35%;
+        z-index: 0;
+        margin-left: 37%;
+    }
+
+    video {
+        margin-top: 70px;
+    }
+}
+
+/* ENDS INDEX>HTML */
+
+/* MAIN */
+.main {
+    margin: 0 auto;
+    height: auto;
+}
+
+.logo {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    height: 100px;
+}
+
+h1 {
+    display: inline-block;
+    width: 70%;
+    font-size: 80px;
+    margin: 30px 50px 10px 50px;
+    color: #83764F;
+    font-family: 'Roboto Mono', monospace;
+}
+
+p {
+    font-family: 'Inconsolata', monospace;
+}
+
+h2 {
+    color: black;
+    font-weight: bolder;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px 50px;
+    gap: 30px;
+    margin: 30px 50px 0 50px;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.tile-image {
+    height: 200px;
+}
+
+footer.card {
+    grid-column: span 2;
+    height: 50px;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.grid-container>.left>h2 {
+    display: inline;
+}
+
+.grid-container>.left>img {
+    float: left;
+    margin-right: 5%;
+}
+
+.grid-container>.right>h2 {
+    display: inline;
+}
+
+.grid-container>.right>img {
+    float: left;
+    margin-right: 5%;
+}
+
+
+@media (max-width:1300px) {
+    .card {
+        grid-column: span 2;
+        margin: auto;
+        margin-bottom:50px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 300px 300px 50px;
+        gap: 35px;
+        margin: 30px 50px 0 50px;
+    }
+
+    h1 {
+        font-size: 50px;
+        text-align: center;
+        display: block;
+        margin: auto;
+    }
+
+    .logo {
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-left: 35%;
+        height: 100px;
+    }
+
+    footer.card {
+        margin-right: 0;
+    }
+}
