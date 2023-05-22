@@ -28,7 +28,7 @@ video {
     margin-left: 10%;
 }
 
-@media (max-width:600px) {
+@media (max-width:1000px) {
 
     .main-index {
         width: 90%;
@@ -49,15 +49,15 @@ video {
 
     .img-index {
         display:flex;
-        position: absolute;
-        width: 100px;
-        margin-top: 35%;
+        position: relative;
+        width: 200px;
+        margin-top: 0;
         z-index: 0;
         margin-left: 37%;
     }
 
     video {
-        margin-top: 70px;
+        margin-top:0;
     }
 }
 
