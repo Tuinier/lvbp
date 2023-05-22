@@ -34,7 +34,6 @@ video {
         width: 90%;
         margin: 50px auto 50px auto;
         position: relative;
-        z-index: -1;
     }
     
     .p-index {
@@ -47,17 +46,31 @@ video {
         font-weight: 900;
     }
 
+    a {
+        position: relative;
+        z-index: 2000;
+    }
+
     .img-index {
         display:flex;
         position: relative;
         width: 200px;
         margin-top: 0;
         z-index: 0;
-        margin-left: 37%;
+        margin-left: 35%;
+    }
+
+    a {
+        display: inline-block;
+        pointer-events: fill;
     }
 
     video {
         margin-top:0;
+    }
+
+    .span-index {
+        display: contents;
     }
 }
 
@@ -162,7 +175,7 @@ footer.card {
         display: inline-block;
         margin-top: 20px;
         margin-bottom: 30px;
-        margin-left: 35%;
+        margin-left: 40%;
         height: 100px;
     }
 
