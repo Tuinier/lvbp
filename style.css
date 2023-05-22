@@ -46,11 +46,6 @@ video {
         font-weight: 900;
     }
 
-    a {
-        position: relative;
-        z-index: 2000;
-    }
-
     .img-index {
         display:flex;
         position: relative;
@@ -58,11 +53,6 @@ video {
         margin-top: 0;
         z-index: 0;
         margin-left: 41%;
-    }
-
-    a {
-        display: inline-block;
-        pointer-events: fill;
     }
 
     video {
