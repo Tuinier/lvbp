@@ -141,7 +141,7 @@ footer.card {
 }
 
 
-@media (max-width:1530px) {
+@media (max-width:1111px) {
     .card {
         grid-column: span 2;
         margin: auto;
