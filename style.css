@@ -101,6 +101,7 @@ h2 {
 }
 .grid-container {
     display: grid;
+    height: 370px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 200px 200px 50px;
     gap: 30px;
