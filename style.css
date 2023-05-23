@@ -142,7 +142,7 @@ footer.card {
 }
 
 
-@media (max-width:1200px) {
+@media (max-width:1000px) {
     .card {
         grid-column: span 2;
         margin: auto;
@@ -162,6 +162,75 @@ footer.card {
         text-align: center;
         display: block;
         margin: auto;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    .logo {
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-left: 36%;
+        width: 28%;
+        height: 10%;
+    }
+
+    footer.card {
+        margin-right: 0;
+    }
+}
+
+@media (max-width:1200px) and (min-width:800px) {
+    .card {
+        grid-column: span 2;
+        margin: auto;
+        margin-bottom:50px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 25px;
+        margin: auto;
+        width: 33%;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    .logo {
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-left: 36%;
+        width: 28%;
+        height: 10%;
+    }
+
+    footer.card {
+        margin-right: 0;
+    }
+}
+
+
+@media (max-width:800px) and (min-width:300px) {
+    .card {
+        grid-column: span 2;
+        margin: auto;
+        margin-bottom:50px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 25px;
+        margin: auto;
+        width: 80%;
     }
 
     h1 {
