@@ -103,7 +103,7 @@ h2 {
     display: grid;
     height: 370px;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px 200px 50px;
+    grid-template-rows: 300px 200px 50px;
     gap: 30px;
     margin: 30px 50px 0 50px;
 }
