@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<head lang="es">
+
+    <title>Precios LVBP</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    
+        <!-- CHOOES HTML FONTS TO USE AS SOON AS YOU ARE WRITTING THE DOCTYPE AND SHT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Inconsolata&family=Roboto+Mono&display=swap" rel="stylesheet">
+        <!-- 
+        font-family: 'Caveat', cursive;
+        font-family: 'Inconsolata', monospace;
+        font-family: 'Roboto Mono', monospace;
+         -->
+
+</head>
+
+<style>
+    h2 {
+        text-align: center;
+        font-family: 'Roboto Mono', monospace;
+        color: #83764F;
+    }
+
+    .tabla-precios {
+        display: flex; 
+        flex-direction: column;
+        margin: 0 10% 0 10%;
+        gap: 30px;
+    }
+    
+    .card {
+        flex-basis: 200px;
+    }
+
+    .tabla-precios > .card > img {
+        width: 50%;
+        float: left;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+
+    .queso {
+        margin-top: 0;
+    }
+
+    .logo {
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-left: 30%;
+        width: 40%;
+        height: 10%;
+        padding-left: 0;
+    }
+    
+    p {
+        text-align: center;
+        font-family: 'Roboto Mono', monospace;
+        color: #83764F;
+        font-weight: 600;
+    }
+
+    .p-precio {
+        margin-top: 25%;
+    }
+
+    @media (min-width: 800px) {
+        h2 {
+        text-align: center;
+        font-family: 'Inconsolata', monospace;
+        color: #83764F;
+    }
+
+    .card > p {
+        margin-top: 70px;
+    }
+
+    div.queso.card {
+        margin-top: 0;
+    }
+
+
+    .tabla-precios {
+        display: flex; 
+        flex-direction: row;
+        margin: 0 10% 0 10%;
+        gap: 30px;
+    }
+    
+    .card {
+        flex-basis: 300px;
+        margin: auto;
+    }
+
+    .tabla-precios > .card > img {
+        width: 50%;
+        float: left;
+        margin-right: 5%;
+    }
+
+    img.img-queso {
+        height: 80%;
+    }
+
+    p.p-entrega {
+        margin-top: 100px;
+    }
+
+
+    }
+
+    @media (min-width: 700px) and (max-width: 799px) {
+        p {
+            font-size: xx-large;
+            margin-top: 50px;
+        }
+
+        h2 {
+            font-size: xx-large;
+        }
+
+        .tabla-precios {
+        display: flex; 
+        flex-direction: column;
+        margin: 0 10% 0 10%;
+        gap: 30px;
+    }
+    }
+
+</style>
+
+<body>
+    
+    <img class="logo" src="./Logo.png" alt="logo">
+    
+    <div class="tabla-precios">
+        <div class="queso card">
+            <h2>Queso</h2>
+            <img class="img-queso" src="./queso.jpg" alt="queso" />
+            <p class="p-precio">$5.00</p>
+            <p>+ entrega a domicilio</p>
+        </div>  
+        <div class="leche card">
+            <h2>Leche</h2>
+            <img class="img-leche" src="./leche.jpg" alt="leche" />
+            <p class="p-precio">$2.00</p>
+            <p class="p-entrega">+ entrega a domicilio</p>
+        </div>
+
+        <div class="yogurt card">
+            <h2>Yogurt</h2>
+            <img class="img-yogut" src="./yogurt.jpg" alt="yogurt" />
+            <p class="p-precio">$6.40</p>
+            <p class="p-entrega">+ entrega a domicilio</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+</body>
