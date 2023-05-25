@@ -68,7 +68,30 @@
         margin-top: 25%;
     }
 
-    @media (min-width: 800px) {
+    @media (min-width: 200px) and (max-width: 399px) {
+        p.precio {
+            font-size: small;
+            margin-top: 50px;
+        }
+
+        h2 {
+            font-size: xx-large;
+        }
+
+        .tabla-precios {
+        display: flex; 
+        flex-direction: column;
+        margin: 0 10% 0 10%;
+        gap: 30px;
+    }
+
+        p {
+            font-size: small;
+        }
+
+    }
+
+    @media (min-width: 950px) {
         h2 {
         text-align: center;
         font-family: 'Inconsolata', monospace;
@@ -107,13 +130,13 @@
     }
 
     p.p-entrega {
-        margin-top: 100px;
+        margin-top: 0px;
     }
 
 
     }
 
-    @media (min-width: 700px) and (max-width: 799px) {
+    @media (min-width: 700px) and (max-width: 949px) {
         p {
             font-size: xx-large;
             margin-top: 50px;
@@ -129,7 +152,8 @@
         margin: 0 10% 0 10%;
         gap: 30px;
     }
-    }
+
+}
 
 </style>
 
@@ -142,7 +166,7 @@
             <h2>Queso</h2>
             <img class="img-queso" src="./queso.jpg" alt="queso" />
             <p class="p-precio">$5.00</p>
-            <p>+ entrega a domicilio</p>
+            <p class="p-entrega">+ entrega a domicilio</p>
         </div>  
         <div class="leche card">
             <h2>Leche</h2>
@@ -158,11 +182,5 @@
             <p class="p-entrega">+ entrega a domicilio</p>
         </div>
     </div>
-
-
-
-
-
-
 
 </body>
