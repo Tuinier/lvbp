@@ -40,6 +40,7 @@
         li {
             color:#83764F;
             list-style: none;
+            margin-left: 10%;
         }
 
         .contactos {
@@ -74,8 +75,10 @@
 /*         @media (min-width: 1800px){
             .logo {
                 display: none;
-            } Vamos a intentar sin esto a ver como queda */
-        }
+            } Vamos a intentar sin esto a ver como queda 
+            
+            }*/
+        
 
         @media (min-width: 200px) and (max-width: 800px) {
             p {
@@ -84,9 +87,24 @@
 
             .ul-contactos {
                 display: inline-block;
+                margin: 0 0 0 0;
+                padding: 0;
             }
+
+            .contactos {
+                display: block;
+                padding-left: 0;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            .img-logo {
+                margin: 0;
+                padding-left: o;
+            }
+
         }
-        
+
         @media (min-width: 1200px) {
             img.logo {
                 display: inline-block;
@@ -98,6 +116,7 @@
         }
 
 
+
     </style>
     <body>
         <h1>La Victoria Buffalo Products</h1>
@@ -105,10 +124,10 @@
         <div class="contactos">
             <p>
                 Puedes contactarnos a través de Instagram, WhatssApp y también vía Email. <br />
-                <ul>
+                <ul class="ul-contactos">
                     <li><a href="https://www.instagram.com/lavictoria_buffaloproducts/">Instagram</a></li>
                     <li><a>WhastApp</a></li>
-                    <li><a href="mailto:ventas@lavictoriabp.com">Email</a></li>
+                    <li style="text-align: center;"><a href="mailto:ventas@lavictoriabp.com">Email</a></li>
                 </ul>
             </p>
             
